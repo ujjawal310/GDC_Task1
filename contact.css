@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+   background-color: #eeeeee;
+}
+
+.left_nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.left_nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.right_nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#signup{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:  rgb(47, 133, 231);
+    color: white;
+}
+
+#signup a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact_section{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(11,110,81);
+    background: linear-gradient(0deg, rgba(11,110,81,1) 0%, rgba(8,30,119,1) 100%);
+}
+
+._form_{
+    height: 90%;
+    width: 40%;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+#name{
+    height: 50px;
+    width: 95%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid white;
+ 
+    color: white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+#email{
+    height: 50px;
+    width: 95%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid white;
+   
+    color: white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+#phone{
+    height: 50px;
+    width: 95%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid white;
+    
+    color: white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+
+
+#address{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 95%;
+    padding: 10px;
+    border: 4px solid white;
+   
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    color: white;
+}
+
+.btn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn button{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid white;
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+
+footer{
+    height: 100%;
+    width: 100%;
+    
+    border-top: 4px solid rgb(36, 36, 36);
+}
+
+.upper_footer{
+    height: 85%;
+    width: 100%;
+    display: flex;
+}
+
+.lower_footer{
+    height: 15%;
+    width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+}
+
+.left_footer{
+    height: 300px;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+     padding-top: 30px;
+     padding-left: 30px;
+    font-size: 18px;
+  
+   
+}
+
+ul li{
+
+    list-style-type: none;
+}
+
+#li1{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#list1{
+    margin-bottom: 50px;
+}
+.middle_footer{
+    height: 300px;
+    width: 33.33%;
+    display: flex;
+    justify-content:center;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    
+
+}
+
+.right_footer{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+   
+   
+}
+
+.main_icons{
+    height: 40px;
+    width: 30%;
+    display: flex;
+   
+}
+
+.left_main{
+    height: 100%;
+    width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_main img{
+    height: 80%;
+    width: 30%;
+}
+
+.middle_main{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_main img{
+    height: 80%;
+    width: 30%;
+}
+
+.right_main{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_main img{
+    height: 80%;
+    width: 30%;
+}
+
+.icon{
+    font-size: 40px;
+    color: black;
+}
+ 

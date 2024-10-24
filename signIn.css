@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+   color: #eeeeeeee;
+}
+
+.left_nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.left_nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.right_nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#signup{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:  rgb(47, 133, 231);
+    color: white;
+}
+
+#signup a{
+    text-decoration: none;
+    color: white;
+}
+
+.form_section{
+    height: 91vh;
+    width: 100vw;
+    background-color: #eeeeeeee;
+    display: flex;
+}
+
+.left_form{
+   height: 100%;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.right_form{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form{
+height: 80%;
+width: 70%;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+padding: 40px;
+font-size: 30px;
+box-shadow: 10px 10px 25px ;
+background-color: azure;
+}
+
+.image_part{
+    height: 80%;
+width: 95%;
+background-color: azure;
+}
+
+.image_part img{
+    height: 100%;
+    width: 100%;
+}
+
+#email{
+    width: 90%;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#password{
+    width: 90%;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#confirm_password{
+    width: 90%;
+    font-size: 30px;
+    padding: 10px;
+}
